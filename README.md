@@ -47,4 +47,8 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 **cp list1.txt /home/newDirectory** --> instead of copying, moving the list1 in tothe newDirectory folder.
 
 
+## **pwd** (present working directory)
+
+**pwd**  --> Showing full path directory of the current directory.
+
 
