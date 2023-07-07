@@ -3,6 +3,12 @@
 Linux is an open-source Unix OS working on the Unix-Kernel.
 Linux commands utilizing the CLI(command line interface) like the command prompt in Windows.
 
+
+## **man** (manual)
+**man**  --> Display online manual documentation pages. **apropos, intro, mandoc, manpath, whatis** some other similar commands.
+
+**man ls** --> Details of ls command.
+
 ## **touch** (creating a folder)
 
 **touch newDirectory** --> you can see this folder after this command.
@@ -49,6 +55,34 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **pwd** (present working directory)
 
-**pwd**  --> Showing full path directory of the current directory.
+**pwd**  --> Showing full path directory of the current directory. 
 
+
+## **find** 
+**find**  --> Walk a file hierarchy. Showing the content of the paths. Care for white spaces.EX:find -x codes\ notes
+
+
+## **grep** 
+**grep**  -->searches any given input files, selecting lines that match one or more patterns
+
+**grep function  Documents/codes\ notes/h002\ alias.txt** --> printing the lines which includes function word
+
+
+## **head** 
+**head**  -->display first lines of a file
+
+## **tail** 
+**tail**  -->display the last part of a file
+
+
+
+
+
+
+
+## **df** (display free disk space)
+**df**  -->displays statistics about the amount of free disk space on the specified filesystem or on the filesystem of which file is a part
+
+## **du** (display disk usage statistics)
+**du**  -->displays the file system block usage for each file argument and for each directory in the file hierarchy rooted in each directory argument
 
