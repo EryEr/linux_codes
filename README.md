@@ -9,9 +9,22 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 **man ls** --> Details of ls command.
 
+
+<img width="424" alt="Screenshot 2023-07-10 at 18 35 02" src="https://github.com/EryEr/linux_codes/assets/138815393/3c4bda86-d812-4174-993c-4103464aaf7d">
+<img width="1613" alt="Screenshot 2023-07-10 at 18 54 05" src="https://github.com/EryEr/linux_codes/assets/138815393/5212b8b6-2584-4be5-80d5-03a86c6d28a6">
+
+
+## **mkdir** (make directories)
+**mkdir**  --> creates the directories named as operands in the order specified, using mode “rwxrwxrwx” (0777) as modified.
+
+<img width="280" alt="Screenshot 2023-07-10 at 19 20 46" src="https://github.com/EryEr/linux_codes/assets/138815393/0cbc2f93-b476-44c5-9e4d-733ee4232955">
+
+
 ## **touch** (creating a folder)
 
 **touch newDirectory** --> you can see this folder after this command.
+
+<img width="303" alt="Screenshot 2023-07-10 at 19 21 05" src="https://github.com/EryEr/linux_codes/assets/138815393/53e87970-7f28-45ce-b160-3c5d2fe9be7d">
 
 ## **cd** (change directory)
 
@@ -23,6 +36,8 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 **cd -** -->You can return to the previous folder.
 
+<img width="385" alt="Screenshot 2023-07-10 at 19 22 03" src="https://github.com/EryEr/linux_codes/assets/138815393/b4d9062d-eee5-43c5-a83c-6dde1f61ad20">
+
 ## **ls** (list)
 **ls**  --> Allows to see all the files and folders in the current directory.
 
@@ -31,6 +46,20 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 **ls -lrt**  ---> Allows to see all the files and folders in the current directory. **-l** --> Long, means additional details, **-r** --> reverse order, **-t** sort according to time
 
 **ls -lh**  --> List the content with the size of them
+
+<img width="480" alt="Screenshot 2023-07-10 at 19 26 14" src="https://github.com/EryEr/linux_codes/assets/138815393/c91102f5-56f8-4149-8405-f991a8a814e5">
+<img width="542" alt="Screenshot 2023-07-10 at 19 27 42" src="https://github.com/EryEr/linux_codes/assets/138815393/bb4058ff-cf3f-40db-88ad-70490eafa703">
+
+## **rm** (remove directory entries)
+**rm**  --> Attempts to remove the non-directory type files specified on the command line.
+
+<img width="496" alt="Screenshot 2023-07-10 at 19 31 50" src="https://github.com/EryEr/linux_codes/assets/138815393/7ba7a79e-bf21-473b-bc7b-4325ace8ae55">
+
+## **rmdir** (remove directories)
+**rmdir**  --> removes the directory entry specified by each directory argument. The folder should be empty to be able to remove it.
+
+<img width="377" alt="Screenshot 2023-07-10 at 19 33 54" src="https://github.com/EryEr/linux_codes/assets/138815393/de2ca376-6c8c-492d-ab41-7091fd6b0319">
+
 
 ## **cat** (concatenate)
 
@@ -84,15 +113,6 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 **history**  --> Providing the last 500 commands which ran in the terminal. There are many general commands, and this is also one of them.
 
 
-## **mkdir** (make directories)
-**mkdir**  --> creates the directories named as operands in the order specified, using mode “rwxrwxrwx” (0777) as modified.
-
-## **rmdir** (remove directories)
-**rmdir**  --> removes the directory entry specified by each directory argument.
-
-## **rm** (remove directory entries)
-**rm**  --> Attempts to remove the non-directory type files specified on the command line.
-
 ## **sudo** (execute a command as super user)
 **sudo**  --> allows a permitted user to execute a command as the superuser or another user, as the security policy specifies.
 
@@ -106,7 +126,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 **su**  --> requests appropriate user credentials via PAM and switches to that user ID (the default user is the superuser).  A shell is then executed.
 
 ## **nano, vim** 
-**nano, vim**  --> These are text editors.
+**nano, vim**  --> These are text editors. When we start to editing, i is allowed to insert then we can add text into the file. ESC and :w will save the changes. :q! exiting without changes.
 
 
 
