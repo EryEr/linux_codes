@@ -69,11 +69,44 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 
 ## **head** 
-**head**  -->display first lines of a file
+**head**  --> Display the first lines of a file
 
 ## **tail** 
-**tail**  -->display the last part of a file
+**tail**  --> Display the last part of a file
 
+## **diff** (differential file and directory comparator)
+**diff mail1.txt mail2.txt**  --> Showing the differences between these two Txt files
+
+## **echo** 
+**echo**  --> Write arguments to the standard output. Same role as System.out.println in Java.
+
+## **history** 
+**history**  --> Providing the last 500 commands which ran in the terminal. There are many general commands, and this is also one of them.
+
+
+## **mkdir** (make directories)
+**mkdir**  --> creates the directories named as operands in the order specified, using mode “rwxrwxrwx” (0777) as modified.
+
+## **rmdir** (remove directories)
+**rmdir**  --> removes the directory entry specified by each directory argument.
+
+## **rm** (remove directory entries)
+**rm**  --> Attempts to remove the non-directory type files specified on the command line.
+
+## **sudo** (execute a command as super user)
+**sudo**  --> allows a permitted user to execute a command as the superuser or another user, as the security policy specifies.
+
+## **chmod** (change mod)
+**chmod**  --> modifies the file mode bits of the listed files as specified by the mode operand. Like “rwxrwxrwx” (0777).
+
+## **chown** (change owner)
+**chmod**  --> changes the user ID and/or the group ID of the specified files.
+
+## **su** (substitute user identity)
+**su**  --> requests appropriate user credentials via PAM and switches to that user ID (the default user is the superuser).  A shell is then executed.
+
+## **nano, vim** 
+**nano, vim**  --> These are text editors.
 
 
 
