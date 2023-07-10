@@ -22,7 +22,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **touch** (creating a folder)
 
-**touch newDirectory** --> you can see this folder after this command.
+**touch newDirectory** --> You can see this folder after this command.
 
 <img width="303" alt="Screenshot 2023-07-10 at 19 21 05" src="https://github.com/EryEr/linux_codes/assets/138815393/53e87970-7f28-45ce-b160-3c5d2fe9be7d">
 
@@ -62,20 +62,32 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 
 ## **nano, vim** 
-**nano, vim**  --> These are text editors. When we start to editing, i is allowed to insert then we can add text into the file. ESC and :w will save the changes. :q! exiting without changes.
+**nano, vim**  --> These are text editors. When we start to editing, **i** is allowed to insert then we can add text into the file. **ESC** and **:w** will save the changes. **:q!** exiting without changes.
+
+<img width="487" alt="Screenshot 2023-07-10 at 23 31 39" src="https://github.com/EryEr/linux_codes/assets/138815393/06ca46c2-a2fb-4e31-8bb6-d3c67c63b970"><br>
+<img width="478" alt="Screenshot 2023-07-10 at 23 33 12" src="https://github.com/EryEr/linux_codes/assets/138815393/9424f477-094e-44f1-8be9-6ca4bb286b05"><br>
+<img width="463" alt="Screenshot 2023-07-10 at 23 33 39" src="https://github.com/EryEr/linux_codes/assets/138815393/59308148-bd66-4a06-9270-766cdf2867f9"><br>
+<img width="465" alt="Screenshot 2023-07-10 at 23 34 09" src="https://github.com/EryEr/linux_codes/assets/138815393/ddff1122-b9fd-4516-9109-2d12b8850bee"><br>
+<img width="555" alt="Screenshot 2023-07-10 at 23 34 48" src="https://github.com/EryEr/linux_codes/assets/138815393/cd0eed1b-97d3-4d52-b478-d71442063255">
+
 
 
 ## **cat** (concatenate)
 
-**cat list.txt** --> Allows to see the content of the list file in terminal
+**cat list.txt** --> Allows to see the content of the list file in terminal<br>
+<img width="698" alt="Screenshot 2023-07-10 at 23 45 36" src="https://github.com/EryEr/linux_codes/assets/138815393/7e409b2d-4a2a-4be3-b3c6-da34926f0632"><br>
 
 **cat list2.txt lis3.txt > list1.txt** --> Concatenate lis2 and 3 and storing in list1
+
+<img width="325" alt="Screenshot 2023-07-10 at 23 51 17" src="https://github.com/EryEr/linux_codes/assets/138815393/4ee475af-99f2-4ffe-9c30-4c1e8fb857f7"><br>
+<img width="532" alt="Screenshot 2023-07-10 at 23 52 34" src="https://github.com/EryEr/linux_codes/assets/138815393/b3e78410-a812-49b9-b908-2eea19fe2f8f"><br>
 
 ## **cp** (copy)
 
 **cp list1.txt /home/newDirectory** --> copying the list1 in tothe newDirectory folder.
 
 **cp list1.txt list2.txt** --> creating a new list2 file with same content of list1.
+<img width="526" alt="Screenshot 2023-07-10 at 23 58 01" src="https://github.com/EryEr/linux_codes/assets/138815393/fc3feabc-629a-4d74-8493-5a8daa25a636">
 
 **cp . /home/newDirectory** --> copying all current directory content into the newDirectory folder.
 
@@ -83,7 +95,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **mv** (move)
 
-**cp list1.txt /home/newDirectory** --> instead of copying, moving the list1 in tothe newDirectory folder.
+**mv list1.txt /home/newDirectory** --> instead of copying, moving the list1 in tothe newDirectory folder.
 
 
 ## **pwd** (present working directory)
