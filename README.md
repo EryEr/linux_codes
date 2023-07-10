@@ -61,6 +61,10 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 <img width="377" alt="Screenshot 2023-07-10 at 19 33 54" src="https://github.com/EryEr/linux_codes/assets/138815393/de2ca376-6c8c-492d-ab41-7091fd6b0319">
 
 
+## **nano, vim** 
+**nano, vim**  --> These are text editors. When we start to editing, i is allowed to insert then we can add text into the file. ESC and :w will save the changes. :q! exiting without changes.
+
+
 ## **cat** (concatenate)
 
 **cat list.txt** --> Allows to see the content of the list file in terminal
@@ -124,10 +128,6 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **su** (substitute user identity)
 **su**  --> requests appropriate user credentials via PAM and switches to that user ID (the default user is the superuser).  A shell is then executed.
-
-## **nano, vim** 
-**nano, vim**  --> These are text editors. When we start to editing, i is allowed to insert then we can add text into the file. ESC and :w will save the changes. :q! exiting without changes.
-
 
 
 
