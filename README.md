@@ -1,3 +1,4 @@
+
 # **linux_codes**
 
 Linux is an open-source Unix OS working on the Unix-Kernel.
@@ -7,7 +8,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 ## **man** (manual)
 **man**  --> Display online manual documentation pages. **apropos, intro, mandoc, manpath, whatis** some other similar commands.
 
-**man ls** --> Details of ls command.
+**`man ls`** --> Details of ls command.
 
 
 <img width="424" alt="Screenshot 2023-07-10 at 18 35 02" src="https://github.com/EryEr/linux_codes/assets/138815393/3c4bda86-d812-4174-993c-4103464aaf7d">
@@ -28,24 +29,24 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **cd** (change directory)
 
-**cd newDirectory** --> If there is a folder called newDirectory, you can enter this folder with this command.
+**`cd newDirectory`** --> If there is a folder called newDirectory, you can enter this folder with this command.
 
-**cd ..** ---> You can move one directory up with this command.
+**`cd ..`** ---> You can move one directory up with this command.
 
-**cd**  --> This is diverted directly to the home directory.
+**`cd`**  --> This is diverted directly to the home directory.
 
-**cd -** -->You can return to the previous folder.
+**`cd -`** -->You can return to the previous folder.
 
 <img width="385" alt="Screenshot 2023-07-10 at 19 22 03" src="https://github.com/EryEr/linux_codes/assets/138815393/b4d9062d-eee5-43c5-a83c-6dde1f61ad20">
 
 ## **ls** (list)
-**ls**  --> Allows to see all the files and folders in the current directory.
+**`ls`**  --> Allows to see all the files and folders in the current directory.
 
-**ls -a** --> Showing hidden files additionally.
+**`ls -a`** --> Showing hidden files additionally.
 
-**ls -lrt**  ---> Allows to see all the files and folders in the current directory. **-l** --> Long, means additional details, **-r** --> reverse order, **-t** sort according to time
+**`ls -lrt`**  ---> Allows to see all the files and folders in the current directory. **-l** --> Long, means additional details, **-r** --> reverse order, **-t** sort according to time
 
-**ls -lh**  --> List the content with the size of them
+**`ls -lh`**  --> List the content with the size of them
 
 <img width="480" alt="Screenshot 2023-07-10 at 19 26 14" src="https://github.com/EryEr/linux_codes/assets/138815393/c91102f5-56f8-4149-8405-f991a8a814e5">
 <img width="542" alt="Screenshot 2023-07-10 at 19 27 42" src="https://github.com/EryEr/linux_codes/assets/138815393/bb4058ff-cf3f-40db-88ad-70490eafa703">
@@ -74,33 +75,31 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **cat** (concatenate)
 
-**cat list.txt** --> Allows to see the content of the list file in terminal<br>
+**`cat list.txt`** --> Allows to see the content of the list file in terminal<br>
 <img width="698" alt="Screenshot 2023-07-10 at 23 45 36" src="https://github.com/EryEr/linux_codes/assets/138815393/7e409b2d-4a2a-4be3-b3c6-da34926f0632"><br>
 
-**cat list2.txt lis3.txt > list1.txt** --> Concatenate lis2 and 3 and storing in list1
+**`cat list2.txt lis3.txt > list1.txt`** --> Concatenate lis2 and 3 and storing in list1
 
 <img width="325" alt="Screenshot 2023-07-10 at 23 51 17" src="https://github.com/EryEr/linux_codes/assets/138815393/4ee475af-99f2-4ffe-9c30-4c1e8fb857f7"><br>
 <img width="532" alt="Screenshot 2023-07-10 at 23 52 34" src="https://github.com/EryEr/linux_codes/assets/138815393/b3e78410-a812-49b9-b908-2eea19fe2f8f"><br>
+<img width="612" alt="Screenshot 2023-07-11 at 10 21 52" src="https://github.com/EryEr/linux_codes/assets/138815393/6bcfd2f6-8646-4df5-b141-7477ae427fd0">
 
 ## **cp** (copy)
 
-**cp list1.txt /home/newDirectory** --> copying the list1 in tothe newDirectory folder.
+**`cp list1.txt /home/newDirectory`** --> copying the list1 in tothe newDirectory folder.
+<img width="1010" alt="Screenshot 2023-07-11 at 10 29 49" src="https://github.com/EryEr/linux_codes/assets/138815393/092e792d-d69e-4595-9ba4-d018515e6a4d">
 
-**cp list1.txt list2.txt** --> creating a new list2 file with same content of list1.
+**`cp list1.txt list2.txt`** --> creating a new list2 file with same content of list1.
 <img width="526" alt="Screenshot 2023-07-10 at 23 58 01" src="https://github.com/EryEr/linux_codes/assets/138815393/fc3feabc-629a-4d74-8493-5a8daa25a636">
-
-**cp . /home/newDirectory** --> copying all current directory content into the newDirectory folder.
-
-**cp -R . /home/newDirectory** --> copying all current directory content with subdirectories(**-R** recursively) into the newDirectory folder.
 
 ## **mv** (move)
 
-**mv list1.txt /home/newDirectory** --> instead of copying, moving the list1 in tothe newDirectory folder.
+**`mv list1.txt /home/newDirectory`** --> instead of copying, moving the list1 in tothe newDirectory folder.
 
 
 ## **pwd** (present working directory)
 
-**pwd**  --> Showing full path directory of the current directory. 
+**`pwd`**  --> Showing full path directory of the current directory. 
 
 
 ## **find** 
@@ -110,7 +109,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 ## **grep** 
 **grep**  -->searches any given input files, selecting lines that match one or more patterns
 
-**grep function  Documents/codes\ notes/h002\ alias.txt** --> printing the lines which includes function word
+**`grep function  Documents/codes\ notes/h002\ alias.txt`** --> printing the lines which includes function word
 
 
 ## **head** 
@@ -120,7 +119,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 **tail**  --> Display the last part of a file
 
 ## **diff** (differential file and directory comparator)
-**diff mail1.txt mail2.txt**  --> Showing the differences between these two Txt files
+**`diff mail1.txt mail2.txt`**  --> Showing the differences between these two Txt files
 
 ## **echo** 
 **echo**  --> Write arguments to the standard output. Same role as System.out.println in Java.
