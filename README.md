@@ -8,24 +8,24 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 ## **man** (manual)
 **man**  --> Display online manual documentation pages. **apropos, intro, mandoc, manpath, whatis** some other similar commands.
 
-**`man ls`** --> Details of ls command.
+**`man ls`** --> Details of ls command.<br>
 
 
-<img width="424" alt="Screenshot 2023-07-10 at 18 35 02" src="https://github.com/EryEr/linux_codes/assets/138815393/3c4bda86-d812-4174-993c-4103464aaf7d">
-<img width="1613" alt="Screenshot 2023-07-10 at 18 54 05" src="https://github.com/EryEr/linux_codes/assets/138815393/5212b8b6-2584-4be5-80d5-03a86c6d28a6">
+<img width="424" alt="Screenshot 2023-07-10 at 18 35 02" src="https://github.com/EryEr/linux_codes/assets/138815393/3c4bda86-d812-4174-993c-4103464aaf7d"><br>
+<img width="1613" alt="Screenshot 2023-07-10 at 18 54 05" src="https://github.com/EryEr/linux_codes/assets/138815393/5212b8b6-2584-4be5-80d5-03a86c6d28a6"><br>
 
 
 ## **mkdir** (make directories)
-**mkdir**  --> creates the directories named as operands in the order specified, using mode “rwxrwxrwx” (0777) as modified.
+**mkdir**  --> creates the directories named as operands in the order specified, using mode “rwxrwxrwx” (0777) as modified.<br>
 
-<img width="280" alt="Screenshot 2023-07-10 at 19 20 46" src="https://github.com/EryEr/linux_codes/assets/138815393/0cbc2f93-b476-44c5-9e4d-733ee4232955">
+<img width="280" alt="Screenshot 2023-07-10 at 19 20 46" src="https://github.com/EryEr/linux_codes/assets/138815393/0cbc2f93-b476-44c5-9e4d-733ee4232955"><br>
 
 
 ## **touch** (creating a folder)
 
-**touch newDirectory** --> You can see this folder after this command.
+**touch newDirectory** --> You can see this folder after this command.<br>
 
-<img width="303" alt="Screenshot 2023-07-10 at 19 21 05" src="https://github.com/EryEr/linux_codes/assets/138815393/53e87970-7f28-45ce-b160-3c5d2fe9be7d">
+<img width="303" alt="Screenshot 2023-07-10 at 19 21 05" src="https://github.com/EryEr/linux_codes/assets/138815393/53e87970-7f28-45ce-b160-3c5d2fe9be7d"><br>
 
 ## **cd** (change directory)
 
@@ -35,9 +35,9 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 **`cd`**  --> This is diverted directly to the home directory.
 
-**`cd -`** -->You can return to the previous folder.
+**`cd -`** -->You can return to the previous folder.<br>
 
-<img width="385" alt="Screenshot 2023-07-10 at 19 22 03" src="https://github.com/EryEr/linux_codes/assets/138815393/b4d9062d-eee5-43c5-a83c-6dde1f61ad20">
+<img width="385" alt="Screenshot 2023-07-10 at 19 22 03" src="https://github.com/EryEr/linux_codes/assets/138815393/b4d9062d-eee5-43c5-a83c-6dde1f61ad20"><br>
 
 ## **ls** (list)
 **`ls`**  --> Allows to see all the files and folders in the current directory.
@@ -46,24 +46,24 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 **`ls -lrt`**  ---> Allows to see all the files and folders in the current directory. **-l** --> Long, means additional details, **-r** --> reverse order, **-t** sort according to time
 
-**`ls -lh`**  --> List the content with the size of them
+**`ls -lh`**  --> List the content with the size of them<br>
 
-<img width="480" alt="Screenshot 2023-07-10 at 19 26 14" src="https://github.com/EryEr/linux_codes/assets/138815393/c91102f5-56f8-4149-8405-f991a8a814e5">
-<img width="542" alt="Screenshot 2023-07-10 at 19 27 42" src="https://github.com/EryEr/linux_codes/assets/138815393/bb4058ff-cf3f-40db-88ad-70490eafa703">
+<img width="480" alt="Screenshot 2023-07-10 at 19 26 14" src="https://github.com/EryEr/linux_codes/assets/138815393/c91102f5-56f8-4149-8405-f991a8a814e5"><br>
+<img width="542" alt="Screenshot 2023-07-10 at 19 27 42" src="https://github.com/EryEr/linux_codes/assets/138815393/bb4058ff-cf3f-40db-88ad-70490eafa703"><br>
 
 ## **rm** (remove directory entries)
-**rm**  --> Attempts to remove the non-directory type files specified on the command line.
+**rm**  --> Attempts to remove the non-directory type files specified on the command line.<br>
 
-<img width="496" alt="Screenshot 2023-07-10 at 19 31 50" src="https://github.com/EryEr/linux_codes/assets/138815393/7ba7a79e-bf21-473b-bc7b-4325ace8ae55">
+<img width="496" alt="Screenshot 2023-07-10 at 19 31 50" src="https://github.com/EryEr/linux_codes/assets/138815393/7ba7a79e-bf21-473b-bc7b-4325ace8ae55"><br>
 
 ## **rmdir** (remove directories)
-**rmdir**  --> removes the directory entry specified by each directory argument. The folder should be empty to be able to remove it.
+**rmdir**  --> removes the directory entry specified by each directory argument. The folder should be empty to be able to remove it.<br>
 
-<img width="377" alt="Screenshot 2023-07-10 at 19 33 54" src="https://github.com/EryEr/linux_codes/assets/138815393/de2ca376-6c8c-492d-ab41-7091fd6b0319">
+<img width="377" alt="Screenshot 2023-07-10 at 19 33 54" src="https://github.com/EryEr/linux_codes/assets/138815393/de2ca376-6c8c-492d-ab41-7091fd6b0319"><br>
 
 
 ## **nano, vim** 
-**nano, vim**  --> These are text editors. When we start to editing, **i** is allowed to insert then we can add text into the file. **ESC** and **:w** will save the changes. **:q!** exiting without changes.
+**nano, vim**  --> These are text editors. When we start to editing, **i** is allowed to insert then we can add text into the file. **ESC** and **:w** will save the changes. **:q!** exiting without changes.<br>
 
 <img width="487" alt="Screenshot 2023-07-10 at 23 31 39" src="https://github.com/EryEr/linux_codes/assets/138815393/06ca46c2-a2fb-4e31-8bb6-d3c67c63b970"><br>
 <img width="478" alt="Screenshot 2023-07-10 at 23 33 12" src="https://github.com/EryEr/linux_codes/assets/138815393/9424f477-094e-44f1-8be9-6ca4bb286b05"><br>
@@ -78,7 +78,7 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 **`cat list.txt`** --> Allows to see the content of the list file in terminal<br>
 <img width="698" alt="Screenshot 2023-07-10 at 23 45 36" src="https://github.com/EryEr/linux_codes/assets/138815393/7e409b2d-4a2a-4be3-b3c6-da34926f0632"><br>
 
-**`cat list2.txt lis3.txt > list1.txt`** --> Concatenate lis2 and 3 and storing in list1
+**`cat list2.txt lis3.txt > list1.txt`** --> Concatenate lis2 and 3 and storing in list1<br>
 
 <img width="325" alt="Screenshot 2023-07-10 at 23 51 17" src="https://github.com/EryEr/linux_codes/assets/138815393/4ee475af-99f2-4ffe-9c30-4c1e8fb857f7"><br>
 <img width="532" alt="Screenshot 2023-07-10 at 23 52 34" src="https://github.com/EryEr/linux_codes/assets/138815393/b3e78410-a812-49b9-b908-2eea19fe2f8f"><br>
@@ -86,15 +86,15 @@ Linux commands utilizing the CLI(command line interface) like the command prompt
 
 ## **cp** (copy)
 
-**`cp list1.txt /home/newDirectory`** --> copying the list1 in tothe newDirectory folder.
-<img width="1010" alt="Screenshot 2023-07-11 at 10 29 49" src="https://github.com/EryEr/linux_codes/assets/138815393/092e792d-d69e-4595-9ba4-d018515e6a4d">
+**`cp list1.txt /home/newDirectory`** --> copying the list1 in tothe newDirectory folder.<br>
+<img width="1010" alt="Screenshot 2023-07-11 at 10 29 49" src="https://github.com/EryEr/linux_codes/assets/138815393/092e792d-d69e-4595-9ba4-d018515e6a4d"><br>
 
-**`cp list1.txt list2.txt`** --> creating a new list2 file with same content of list1.
-<img width="526" alt="Screenshot 2023-07-10 at 23 58 01" src="https://github.com/EryEr/linux_codes/assets/138815393/fc3feabc-629a-4d74-8493-5a8daa25a636">
+**`cp list1.txt list2.txt`** --> creating a new list2 file with same content of list1.<br>
+<img width="526" alt="Screenshot 2023-07-10 at 23 58 01" src="https://github.com/EryEr/linux_codes/assets/138815393/fc3feabc-629a-4d74-8493-5a8daa25a636"><br>
 
 ## **mv** (move)
 
-**`mv list1.txt /home/newDirectory`** --> instead of copying, moving the list1 in tothe newDirectory folder.
+**`mv list1.txt /home/newDirectory`** --> instead of copying, moving the list1 in tothe newDirectory folder.<br>
 
 
 ## **pwd** (present working directory)
